@@ -5,6 +5,11 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #fff;
 }
 .wrap {
   width: 1920px;
@@ -24,3 +29,50 @@ body {
   width: 1296px;
   height: 600px;
 } 
+.standatr {
+  background-image:url(/img/sessions-standart.jpg);
+  background-repeat:no-repeat;
+  width: 416px;
+  height: 540px;
+}
+.container {
+  width: 1296px; 
+  margin: 0 auto;
+}
+
+h2.sessions-title {
+  font-family: var(--second-family);
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  text-align: center;
+  color: #fff;
+}
+.standatr {
+  background-image:url(/img/sessions-standart.jpg);
+  background-repeat:no-repeat;
+  border-radius: 10px;
+  width: 416px;
+  height: 540px;
+}
+.pair, .pregnant-women, .diving, .photoshoot {
+  background-repeat:no-repeat;
+  border-radius: 10px;
+  width: 416px;
+  height: 258px;
+}
+.pair {
+  background-image:url(/img/sessions-pear.jpg);
+}
+.pregnant-women {
+  background-image:url(/img/sessions-pregnant-women.jpg);
+}
+.diving {
+  background-image:url(/img/sessions-immersion.jpg);
+}
+.photoshoot {
+  background-image:url(/img/sessions-photo-shoot.jpg);
+
+
+}
